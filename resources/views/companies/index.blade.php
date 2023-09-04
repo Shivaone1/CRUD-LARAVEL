@@ -13,7 +13,7 @@
                     <h2>Laravel 9 CRUD</h2>
                 </div>
                 <div class="pull-right mb-2">
-                    <a class="btn btn-success" href="{{ route('companies.create') }}"> Create Company</a>
+                    <a class="btn btn-success" href="{{ route('companies.create') }}"> Create Student</a>
                 </div>
             </div>
         </div>
@@ -26,9 +26,9 @@
             <thead>
                 <tr>
                     <th>S.No</th>
-                    <th>Company Name</th>
-                    <th>Company Email</th>
-                    <th>Company Address</th>
+                    <th>Student Name</th>
+                    <th>Student Email</th>
+                    <th>Student Address</th>
                     <th width="280px">Action</th>
                 </tr>
             </thead>
